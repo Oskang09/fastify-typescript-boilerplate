@@ -1,0 +1,25 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "noEmitHelpers": false,
+        "strictNullChecks": true,
+        "types": [
+            "reflect-metadata"
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules/**"
+    ]
+}
