@@ -80,7 +80,7 @@ export default User;
 
 `@IRepository(sequelizeModel)` will receive repository instance when construct work like dependency injection. `@Endpoint` will have all definition about endpoint, following `fastify-schema`. `data-mapper` is a extra tool to map data to other layer easy to access supported dot notation definition etc `user.token`.
 
-```
+```ts
 import { Repository } from "sequelize-typescript";
 import * as jwt from 'jsonwebtoken';
 import { Endpoint, IRepository, EndpointAPI, Request, Response } from "../plugin/endpoint";
