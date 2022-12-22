@@ -14,7 +14,7 @@
     "fastify": "^2.11.0",
     "firebase-admin": "^8.9.2",
     "glob": "^7.1.6",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.15",
     "pg": "^7.18.1",
     "pg-hstore": "^2.3.3",
